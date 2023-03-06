@@ -32,7 +32,6 @@ class Catalogo : AppCompatActivity() {
 
     fun cargarPeliculas(){
         
-        // PELICULAS
         peliculas.add(Pelicula("Big Hero", R.drawable.bighero6,R.drawable.headerbighero6,"When a devastating event befalls the city of San Fransokyo and catapults Hiro into the\n" +
                 "midst of danger, he turns to Baymax and his close friends adrenaline junkie Go Go\n" +
                 "Tomago, neatnik Wasabi, chemistry whiz Honey Lemon and fanboy Fred. Determined to\n" +
@@ -80,8 +79,7 @@ class Catalogo : AppCompatActivity() {
                 "team for the dangerous enemy that seems to predict their every move. An enemy that only\n" +
                 "Cobb could have seen coming."))
 
-        // SERIES
-        peliculas.add(Pelicula("Dr. House",R.drawable.drhouse,R.drawable.drwhoheader,"The series follows the life of anti-social, pain killer addict, witty and arrogant medical doctor Gregory\n" +
+        peliculas.add(Pelicula("Dr. House",R.drawable.drhouse,R.drawable.househeader,"The series follows the life of anti-social, pain killer addict, witty and arrogant medical doctor Gregory\n" +
                 "House (Hugh Laurie) with only half a muscle in his right leg. He and his team of medical doctors try\n" +
                 "to cure complex and rare diseases from very ill ordinary people in the United States of America."))
 
